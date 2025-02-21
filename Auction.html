@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL AUCTION 2025</title>
+    <style>
+        body {
+            background-image: url('AuctionIPL.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .toggle-button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            background-color: gold;
+            color: black;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        .table-container {
+            display: grid;
+            grid-template-columns: repeat(5, auto);
+            gap: 10px;
+            padding: 5px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 180px; /* Adjusted width */
+            margin: 5px;
+            border-radius: 10px; 
+            overflow: hidden;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+        }
+        .table-header {
+            width: 100%;
+            height: 58px; /* Increased height for better visibility */
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        th, td {
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            padding: 5px;
+            text-align: left;
+            font-size: 11px;
+            font-weight: 600;
+            background: rgba(255, 255, 255, 0.2);
+            color: rgb(12, 12, 12);
+        }
+        th {
+            width: 70%; /* Col 1 takes 70% width */
+        }
+        td:nth-child(1), th:nth-child(1) {
+            width: 70%; /* Col 1 */
+        }
+        td:nth-child(2), th:nth-child(2) {
+            width: 30%; /* Col 2 */
+        }
+        td, th {
+            cursor: pointer;
+        }
+        h2 {
+            color:aliceblue;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <button class="toggle-button" onclick="window.location.href='newpage.html'">SWITCH</button>
+    <h2>AUCTION SUMMARY</h2>
+    
+    <div class="table-container">
+        <script>
+            let tableData = JSON.parse(localStorage.getItem("tableData")) || [
+                { image: 'CSK.png', color: '#E4D00A'},
+                { image: 'MI.png', color: '#0096FF' },
+                { image: 'KKR.png', color: '#702963' },
+                { image: 'GT.png', color: '#1C2E4A' },
+                { image: 'RCB.png', color: '#D2042D' },
+                { image: 'LSG.png', color: '#1434A4' },
+                { image: 'SRH.png', color: '#CC5500' },
+                { image: 'DC.png', color: '#0047AB' },
+                { image: 'RR.png', color: '#FF69B4' },
+                { image: 'PKBS.png', color: '#FF0000' }
+            ];
+            
+            function saveTableData() {
+                let tables = document.querySelectorAll("table");
+                let updatedData = [];
+                tables.forEach((table, index) => {
+                    let rows = table.querySelectorAll("tr");
+                    let rowData = [];
+                    rows.forEach((row, rowIndex) => {
+                        if (rowIndex > 1) { // Skip header rows
+                            let cells = row.querySelectorAll("td");
+                            rowData.push([cells[0].innerText, cells[1].innerText]);
+                        }
+                    });
+                    updatedData.push({
+                        image: tableData[index].image,
+                        color: tableData[index].color,
+                        content: rowData
+                    });
+                });
+                localStorage.setItem("tableData", JSON.stringify(updatedData));
+            }
+            
+            for (let i = 0; i < 10; i++) {
+                document.write('<table style="background:' + tableData[i].color + '; border-radius: 10px;">' );
+                document.write('<tr><td colspan="2" style="padding:0;"><img src="' + tableData[i].image + '" class="table-header"></td></tr>');
+                document.write('<tr><th contenteditable="true">Player Name</th><th contenteditable="true">Price</th></tr>');
+                let rows = tableData[i].content || [];
+                for (let j = 0; j < 9; j++) { // Increased to 9 rows
+                    let col1 = rows[j] ? rows[j][0] : (j+1);
+                    let col2 = rows[j] ? rows[j][1] : "Data";
+                    document.write('<tr><td contenteditable="true" oninput="saveTableData()">' + col1 + '</td><td contenteditable="true" oninput="saveTableData()">' + col2 + '</td></tr>');
+                }
+                document.write('</table>');
+            }
+        </script>
+    </div>
+</body>
+</html>
