@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slides</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+
+    <button class="back-button" onclick="window.location.href='./../../index.html'">
+      Go Back
+    </button>
+
+    <div class="slider-container">
+      <div class="slides">
+        <img src="../resources/VK18.png" alt="Slide 1" class="active" />
+        <img src="../resources/JB93.png" alt="Slide 2" />
+        <img src="../resources/RS45.png" alt="Slide 3" />
+      </div>
+      <div class="stamp" id="stamp"></div>
+      <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+      <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+
+    <div class="status-buttons">
+      <button class="sold-button" onclick="markSold()">SOLD</button>
+      <button class="unsold-button" onclick="markUnsold()">UNSOLD</button>
+    </div>
+  </body>
+</html>
