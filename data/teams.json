@@ -1,0 +1,578 @@
+[
+    {
+        "location": "Pune",
+        "name": "CSK",
+        "color": "#E4D00A",
+        "logo": "resources/CSK.png",
+        "players": [
+            {
+                "id": "csk1p",
+                "name": "MS Dhoni",
+                "bid": 5
+            },
+            {
+                "id": "csk2p",
+                "name": "Raina",
+                "bid": 3
+            },
+            {
+                "id": "csk3p",
+                "name": "Jadeja",
+                "bid": 4
+            },
+            {
+                "id": "csk4p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "csk5p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "csk6p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "csk7p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "csk8p",
+                "name": "",
+                "bid": 0
+            }
+        ]
+    },
+    {
+        "location": "Pune",
+        "name": "MI",
+        "color": "#0096FF",
+        "logo": "resources/MI.png",
+        "players": [
+            {
+                "id": "mi1p",
+                "name": "Rohit Sharma",
+                "bid": 5
+            },
+            {
+                "id": "mi2p",
+                "name": "Pollard",
+                "bid": 3
+            },
+            {
+                "id": "mi3p",
+                "name": "Mallinga",
+                "bid": 4
+            },
+            {
+                "id": "mi4p",
+                "name": "Ishan Kishan",
+                "bid": 2
+            },
+            {
+                "id": "mi5p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "mi6p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "mi7p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "mi8p",
+                "name": "",
+                "bid": 0
+            }
+        ]
+    },
+    {
+        "location": "Pune",
+        "name": "KKR",
+        "color": "#702963",
+        "logo": "resources/KKR.png",
+        "players": [
+            {
+                "id": "kkr1p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "kkr2p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "kkr3p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "kkr4p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "kkr5p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "kkr6p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "kkr7p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "kkr8p",
+                "name": "",
+                "bid": 0
+            }
+        ]
+    },
+    {
+        "location": "Pune",
+        "name": "DC",
+        "color": "#0047AB",
+        "logo": "resources/DC.png",
+        "players": [
+            {
+                "id": "dc1p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "dc2p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "dc3p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "dc4p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "dc5p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "dc6p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "dc7p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "dc8p",
+                "name": "",
+                "bid": 0
+            }
+        ]
+    },
+    {
+        "location": "Pune",
+        "name": "GT",
+        "color": "#1C2E4A",
+        "logo": "resources/GT.png",
+        "players": [
+            {
+                "id": "gt1p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "gt2p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "gt3p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "gt4p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "gt5p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "gt6p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "gt7p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "gt8p",
+                "name": "",
+                "bid": 0
+            }
+        ]
+    },
+    {
+        "location": "Pune",
+        "name": "LSG",
+        "color": "#1434A4",
+        "logo": "resources/LSG.png",
+        "players": [
+            {
+                "id": "lsg1p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "lsg2p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "lsg3p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "lsg4p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "lsg5p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "lsg6p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "lsg7p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "lsg8p",
+                "name": "",
+                "bid": 0
+            }
+        ]
+    },
+    {
+        "location": "Pune",
+        "name": "PKBS",
+        "color": "#FF0000",
+        "logo": "resources/PKBS.png",
+        "players": [
+            {
+                "id": "pkbs1p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "pkbs2p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "pkbs3p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "pkbs4p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "pkbs5p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "pkbs6p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "pkbs7p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "pkbs8p",
+                "name": "",
+                "bid": 0
+            }
+        ]
+    },
+    {
+        "location": "Pune",
+        "name": "RCB",
+        "color": "#D2042D",
+        "logo": "resources/RCB.png",
+        "players": [
+            {
+                "id": "rcb1p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "rcb2p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "rcb3p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "rcb4p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "rcb5p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "rcb6p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "rcb7p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "rcb8p",
+                "name": "",
+                "bid": 0
+            }
+        ]
+    },
+    {
+        "location": "Pune",
+        "name": "RR",
+        "color": "#FF69B4",
+        "logo": "resources/RR.png",
+        "players": [
+            {
+                "id": "rr1p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "rr2p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "rr3p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "rr4p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "rr5p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "rr6p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "rr7p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "rr8p",
+                "name": "",
+                "bid": 0
+            }
+        ]
+    },
+    {
+        "location": "Pune",
+        "name": "SRH",
+        "color": "#CC5500",
+        "logo": "resources/SRH.png",
+        "players": [
+            {
+                "id": "srh1p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "srh2p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "srh3p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "srh4p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "srh5p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "srh6p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "srh7p",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "srh8p",
+                "name": "",
+                "bid": 0
+            }
+        ]
+    },
+    {
+        "location": "Hyderabad",
+        "name": "SRH",
+        "color": "#CC5500",
+        "logo": "resources/SRH.png",
+        "players": [
+            {
+                "id": "srh1h",
+                "name": "Rajasekhar",
+                "bid": 1
+            },
+            {
+                "id": "srh2h",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "srh3h",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "srh4h",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "srh5h",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "srh6h",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "srh7h",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "srh8h",
+                "name": "",
+                "bid": 0
+            }
+        ]
+    },
+    {
+        "location": "Hyderabad",
+        "name": "CSK",
+        "color": "#E4D00A",
+        "logo": "resources/CSK.png",
+        "players": [
+            {
+                "id": "csk1h",
+                "name": "Peeyush",
+                "bid": 1
+            },
+            {
+                "id": "csk2h",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "csk3h",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "csk4h",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "csk5h",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "csk6h",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "csk7h",
+                "name": "",
+                "bid": 0
+            },
+            {
+                "id": "csk8h",
+                "name": "",
+                "bid": 0
+            }
+        ]
+    }
+]

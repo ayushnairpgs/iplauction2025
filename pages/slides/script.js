@@ -10,6 +10,10 @@ function moveSlide(step) {
     updateStamp();
 }
 
+function refresh(){
+    slideStatus[currentIndex] = "";
+}
+
 function markSold() {
     slideStatus[currentIndex] = "sold";
     saveStatus();
